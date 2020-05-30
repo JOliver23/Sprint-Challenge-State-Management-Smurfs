@@ -1,3 +1,3 @@
 import React, { createContext } from "react";
 
-export const activeSmirfContext = createContext();
+export const SmurfContext = createContext();
