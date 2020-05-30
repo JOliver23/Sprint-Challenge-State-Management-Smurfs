@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SmurfCard = props => {
+    console.log('props from card', props)
     return (
         <div className="smurf">
             <h1 className="smurf-name">{props.smurf.name}</h1>
